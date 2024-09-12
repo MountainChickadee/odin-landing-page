@@ -1,0 +1,40 @@
+.sec_one{
+    font-family: Roboto,'Times New Roman', Times, serif;
+    background-color:#1f2937;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec_one .top {
+    display: flex;
+    flex: 1, 1, 1; 
+
+}
+
+.sec_one .hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec_one .logo {
+    color: #f9faf8;
+    font-size: 24px;
+    justify-content: flex-start;
+}
+
+.sec_one .link {
+    color: #e5e7eb;
+    font-size: 18px;
+    justify-content: flex-end;
+}
+
+.sec_one h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sec_one p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
